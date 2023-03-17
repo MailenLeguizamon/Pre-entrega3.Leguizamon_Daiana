@@ -1,0 +1,107 @@
+/* Variables globales */
+/*Operaciones*/
+/*nesting*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo aplicado a la barra de navegacion */
+header nav {
+  display: flex;
+  background-color: rgb(155, 224, 224);
+  margin-top: 40px -40;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header nav ul li {
+  flex-direction: row;
+  top: 40px -20;
+  right: 40px -20;
+  bottom: 40px -20;
+  left: 40px -20;
+}
+header nav ul li a {
+  font-size: 40px -20;
+  font-family: "Goudy Bookletter 1911", serif;
+  font-family: "Solitreo", cursive;
+  color: rgb(89, 129, 238);
+}
+
+/* Estilo aplicado al logo de la web */
+nav .logo-mc {
+  width: 120px;
+  height: 120px;
+  margin-left: 40px -20;
+  margin-top: 40px -20;
+  border: 3px solid #7bbbc0;
+  background: rgb(155, 224, 224);
+}
+
+/* Estilo aplicado al encabezado */
+h1 {
+  color: rgb(65, 70, 83);
+  text-align: center;
+  font-size: 40px;
+  font-family: "Tangerine", cursive;
+  margin: 40px;
+}
+
+/* Estilo aplicado al inicio*/
+.presentacion {
+  align-items: center;
+  margin-top: 40px;
+}
+
+div {
+  margin-top: calculos;
+  align-items: center;
+}
+div video {
+  border: 3px solid #7bbbc0;
+  height: 700px -100;
+}
+
+.espacio {
+  font-size: 40px;
+  font-family: "Goudy Bookletter 1911", serif;
+  margin: 40px;
+}
+
+/*Estilo aplicado al formulario de contactanos.html */
+label input {
+  color: rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 40px -35;
+  font-size: 40px -35;
+  font-family: "Goudy Bookletter 1911", serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mb-3 .btn-group {
+    transition: none;
+    font-size: 0.875rem;
+  }
+}
+/* Estilo aplicado al template de contactanos.html */
+div label textarea {
+  color: rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 40px;
+  font-size: 40px -15;
+  font-family: "Goudy Bookletter 1911", serif;
+  background-color: rgb(155, 224, 224);
+}
+
+/* Estilo aplicado al template productos.html */
+.productos .contactanos .ubicacion .quienes-somos .comprar {
+  color: rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 40px;
+  font-size: 40px -15;
+  font-family: "Goudy Bookletter 1911", serif;
+  background-color: rgb(155, 224, 224);
+}
+
+
+/*# sourceMappingURL=estilo.css.map */

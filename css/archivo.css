@@ -1,0 +1,193 @@
+/* Variables globales */
+/*Operaciones*/
+/*nesting*/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo aplicado en el encabezado */
+h1 {
+  color:  rgb(94, 106, 136);
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Tangerine', cursive;
+  margin: 50px;
+  padding:30px;
+  
+}
+
+/* Estilo aplicado a la barra de navegacion */
+.nav {
+  display: flex;
+  background-color: rgb(155, 224, 224);
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#nav-01 {
+padding: 0px, 15px;
+}
+
+li {
+  flex-direction: row;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px; 
+}
+a { 
+  font-size: 30px;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: 'Solitreo', cursive;
+  color:  rgb(89, 129, 238);
+}  
+
+#gradiente-nav{
+  background-image: linear-gradient(90deg, rgba(103,197,214,1) 31%, rgba(125,169,237,1) 68%, rgba(193,190,251,1) 100%);
+  padding:  20px;
+}
+
+
+/* Estilo aplicado a la pagina de inicio */
+
+#video-present{ 
+padding: 35px ;
+}
+
+#nuestro-espacio {
+  font-family:  'Goudy Bookletter 1911', serif;
+  font-family: 'Solitreo', cursive;
+  font-size:20px;
+  padding: 45px ;
+  }
+
+/* Estilo aplicado en el logo de la página web */
+.logo {
+  background-color: rgb(155, 224, 224);
+}
+.logo-mc {
+  width: 150px;
+  height: 150px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border: 3px solid #7bbbc0;
+}
+
+ 
+/* Estilo aplicado al template de contactanos.html */
+.contactanos {
+  color:  rgb(65, 70, 83);;
+  text-align: left;
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: 'Goudy Bookletter 1911', serif;
+
+  background-color:rgb(155, 224, 224);
+}
+
+/* Estilo aplicado al formulario de contactanos.html */
+.mb-3 {
+  color:    rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: 'Solitreo', cursive;   
+}
+@media (prefers-reduced-motion: reduce) {
+  .mb-3 .btn-group {
+    transition: none;
+    font-size: 0.875rem;
+  }
+  }
+
+/* Estilo aplicado al template de contactanos.html */
+.ubicacion {
+  color:    rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: 'Solitreo', cursive;
+  background-color:rgb(155, 224, 224);    
+}
+
+/* Estilo aplicado al template productos.html */
+#div-img{
+  padding: 10px; 
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: 'Solitreo', cursive;
+  font-size: 16px;
+
+
+}
+.productos {
+  color:   rgb(65, 70, 83);;
+  text-align: left;
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: 'Solitreo', cursive;
+  background-color:rgb(155, 224, 224);
+}
+
+/* Estilo aplicado al template testimonios.html */
+.testimonios{
+  color:   rgb(65, 70, 83);;
+  text-align: left;
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: 'Solitreo', cursive;
+  background-color:rgb(155, 224, 224);
+} 
+
+  
+.card {
+  
+ 
+ @media screen and (min-width: 576px) {
+  .card {
+    font-size: 20px;
+  }
+}}
+  
+/* Estilos aplicados al  template testimonios (comentario del servicio) */
+.flex-container p {
+
+  font-family:'Goudy Bookletter 1911', serif;
+  font-size: 20px;
+}
+
+/* Estilo aplicado al template quienes-somos.html  */
+.quienes-somos {
+  color:  rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: 'Solitreo', cursive;
+  background-color:rgb(155, 224, 224);
+}
+
+/* Estilo aplicado al font de quienes-somos.html  */
+.nosotras {
+  color:   rgb(65, 70, 83);
+  text-align:start;
+  font-size: 20px;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-family: 'Solitreo', cursive;
+  margin: 50px;
+}
+
+/* Estilo aplicado al pie de página de html */
+footer-item {
+  background-color:rgb(155, 224, 224);
+}
+
+
+/*# sourceMappingURL=archivo.css.map */

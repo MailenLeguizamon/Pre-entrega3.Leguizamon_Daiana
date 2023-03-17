@@ -1,0 +1,147 @@
+/* Variables globales */
+/*Operaciones*/
+/*nesting*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo aplicado a la barra de navegacion */
+header nav {
+  display: flex;
+  background-color: rgb(155, 224, 224);
+  margin-top: 50px -40;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header nav ul li {
+  flex-direction: row;
+  top: 50px -20;
+  right: 50px -20;
+  bottom: 50px -20;
+  left: 50px -20;
+  color: #7bbbc0;
+}
+header nav ul li a {
+  font-size: 50px -20;
+  font-family: "Goudy Bookletter 1911", serif;
+  color: rgb(89, 129, 238);
+}
+
+/* Estilo aplicado al logo de la web */
+nav .logo-mc {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px -20;
+  margin-top: 50px -20;
+  border: 2px solid #7bbbc0;
+}
+
+/* Estilo aplicado al encabezado */
+h1 {
+  color: rgb(65, 70, 83);
+  text-align: center;
+  font-size: 50px;
+  font-family: "Goudy Bookletter 1911", serif;
+  margin: 50px;
+  margin-top: 50px -30;
+}
+
+/* Estilo aplicado al inicio*/
+.presentacion {
+  align-items: center;
+  margin-top: 50px;
+}
+.presentacion video {
+  align-tracks: 350px;
+}
+
+div {
+  margin-top: calculos;
+  align-items: center;
+}
+div video {
+  border: 3px solid rgb(65, 70, 83);
+  height: 700px -100;
+}
+div .presentacion {
+  color: rgb(65, 70, 83);
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px -15;
+  font-family: "Goudy Bookletter 1911", serif;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/*Estilo aplicado al formulario de contactanos.html */
+label input {
+  color: rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 50px -35;
+  font-size: 50px -35;
+  font-family: "Goudy Bookletter 1911", serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mb-3 .btn-group {
+    transition: none;
+    font-size: 0.875rem;
+  }
+}
+/* Estilo aplicado al template de contactanos.html */
+div label textarea {
+  color: rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 50px;
+  font-size: 50px -15;
+  font-family: "Goudy Bookletter 1911", serif;
+  background-color: rgb(155, 224, 224);
+}
+
+/* Estilo aplicado al template productos.html */
+.productos {
+  color: rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 50px;
+  font-size: 50px -15;
+  font-family: "Goudy Bookletter 1911", serif;
+  background-color: rgb(155, 224, 224);
+}
+
+/* Estilo aplicado al template como-comprar.html */
+.comprar {
+  color: rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 50px;
+  font-size: 50px -15;
+  font-family: "Goudy Bookletter 1911", serif;
+  background-color: rgb(155, 224, 224);
+}
+
+/* Estilo aplicado en la imagen, template como-comprar.html  */
+.comocomprar {
+  width: 700px;
+  height: 700px;
+  margin-top: 50px -20;
+  margin-left: 700px -150;
+  margin-bottom: 700px -600;
+}
+
+/* Estilo aplicado al template quienes-somos.html  */
+.quienes-somos {
+  color: rgb(65, 70, 83);
+  text-align: left;
+  margin-top: 50px;
+  font-size: 50px -15;
+  font-family: "Goudy Bookletter 1911", serif;
+  background-color: rgb(155, 224, 224);
+}/*# sourceMappingURL=estilos.css.map */
